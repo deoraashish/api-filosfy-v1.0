@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -r esm index"
+    "start": "node -r esm index",
+    "dev": "nodemon -r esm index"
   },
   "author": "",
   "license": "ISC",
