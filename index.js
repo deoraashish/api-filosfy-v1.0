@@ -10,7 +10,7 @@ const app = express();
 const server = http.createServer(app);
 
 
-app.use(cors({origin:["http://localhost:3000","http://3.110.197.170", "https://filosfy.com", "http://filosfy.com"]}))
+app.use(cors({origin:["http://localhost:3000","http://3.110.197.170", "https://filosfy.com", "http://filosfy.com", "https://www.filosfy.com/"]}))
 app.use(express.urlencoded({extended:false}));
 app.use(express.json())
 app.use(router)
